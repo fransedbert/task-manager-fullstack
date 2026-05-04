@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# env files (PENTING, jangan sampai ke-upload)
+.env
+.env.local
+
+# next.js
+.next/
+out/
+
+# build
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# prisma (opsional kalau pakai sqlite lokal)
+prisma/dev.db
